@@ -1,0 +1,59 @@
+body {
+   font-family: serif, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: #242424;
+   color: white;
+   height: 65px;
+   margin: 0;
+   padding: 0 340px;
+}
+
+#navegation {
+   list-style: none;
+   display: inline-flex;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+#navegation > li {
+   padding: 12px 20px;
+}
+
+#navegation > li:visited {
+   text-decoration:none;
+   color: #cf750f;
+}
+
+#series {
+   color: #cf750f;
+}
+
+.main-container {
+   padding: 0 400px;
+   text-align: justify;
+}
+
+.titol {
+   font-size: 50px;
+   color: #0b7c82;
+}
+
+.subtitol {
+   font-size: 40px;
+   color: #0b7c82;
+}
+
+.creadora {
+   background-color: #eeeeee;
+   height: 45px;
+   padding-top: 5px;
+   padding-left: 25px;
+}
+
+.autor {
+  height: 90%;
+}
