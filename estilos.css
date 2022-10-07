@@ -1,6 +1,6 @@
 body {
    font-family: serif, sans-serif;
-   margin: 0;
+   margin: 0 0 10px 0;
    padding: 0;
 }
 
@@ -8,7 +8,6 @@ header {
    background-color: #242424;
    color: white;
    height: 65px;
-   margin: 0;
    padding: 0 340px;
 }
 
@@ -35,6 +34,7 @@ header {
 .main-container {
    padding: 0 400px;
    text-align: justify;
+   line-height: 1.5;
 }
 
 .titol {
@@ -49,11 +49,60 @@ header {
 
 .creadora {
    background-color: #eeeeee;
-   height: 45px;
+   height: 56px;
    padding-top: 5px;
-   padding-left: 25px;
+   padding-left: 30px;
 }
 
 .autor {
   height: 90%;
+  float: right;
+}
+
+a {
+   text-decoration: none;
+   color: #fd8207;
+}
+
+a:hover {
+   border: 1px solid #fd8207;
+   color: black;
+}
+
+.imatge {
+   display:block;
+   margin:auto;
+   outline: 6px double rgb(242, 238, 238);
+}
+
+.video {
+   display:block;
+   margin:auto;
+   outline: 6px double rgb(242, 238, 238);
+   width: 560px;
+   height: 315px;
+}
+
+iframe + p {
+   color: gray;
+   text-align: center;
+}
+
+hr {
+   margin: 0 35px;
+}
+
+.llista {
+   list-style-type: circle;
+}
+
+.dada {
+   margin: 30px 60px;
+}
+
+footer {
+   background-color: #055256;
+   height: 100px;
+   padding: 20px 400px;
+   color: white;
 }
