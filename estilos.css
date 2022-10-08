@@ -27,8 +27,9 @@ header {
    color: #cf750f;
 }
 
-#series {
-   color: #cf750f;
+#series > a:hover{
+   border: 1px solid #fd8207;
+   color: white;
 }
 
 .main-container {
@@ -54,9 +55,13 @@ header {
    padding-left: 30px;
 }
 
-.autor {
+.imatge_autor {
   height: 90%;
   float: right;
+}
+
+.autors {
+   padding-right: 15px;
 }
 
 a {
